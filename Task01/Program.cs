@@ -1,13 +1,11 @@
 ﻿// Показать натуральные числа от N до 1, N задано
-void PrintElement(int m, int n)
+void PrintElement(int n)
 {
-    if (m <= n)
+    if (1 <= n)
     {
         Console.WriteLine("{0}", n);
-        PrintElement(m, n - 1);
+        PrintElement(n - 1);
     }
 }
-
 int n = int.Parse(Console.ReadLine() ?? "0");
-int m = 1;
-PrintElement(m, n);
+PrintElement(n);
