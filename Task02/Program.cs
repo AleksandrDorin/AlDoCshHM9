@@ -17,8 +17,8 @@ void PrintElement(int n, int m)
     }
 }
 Console.WriteLine($"Введите число M: ");
-int m = int.Parse(Console.ReadLine() ?? "0"); //10
+int m = int.Parse(Console.ReadLine() ?? "0"); 
 Console.WriteLine($"Введите число N: ");
-int n = int.Parse(Console.ReadLine() ?? "0"); //20
+int n = int.Parse(Console.ReadLine() ?? "0"); 
 Console.WriteLine($"Ряд числе от M({m}) , до N({n}) ");
 PrintElement(m, n);
